@@ -17,7 +17,7 @@ class Plutus < Formula
   depends_on "s2n"
 
   def install
-    system "sbt", "nativeLink"
-    bin.install "target/plutus-out" => "plutus"
+    system "sbt", "plutus/nativeLink"
+    bin.install "plutus/target/plutus-out" => "plutus"
   end
 end
