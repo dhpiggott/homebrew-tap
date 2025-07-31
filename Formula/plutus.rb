@@ -4,6 +4,7 @@ class Plutus < Formula
   url "https://github.com/dhpiggott/plutus/archive/refs/tags/v2.tar.gz"
   sha256 "9f7c3643628b582c0590fa88d7e768f46f75c83e6800a0daad33341b901c1d90"
   license ""
+  revision 1
 
   bottle do
     root_url "https://github.com/dhpiggott/homebrew-tap/releases/download/plutus-2"
@@ -17,7 +18,8 @@ class Plutus < Formula
   depends_on "s2n"
 
   def install
-    system "sbt", "plutus/nativeLink"
+    ENV["SN_RELEASE"] = "size"
+    system "sbt", "set ThisBuild/version := \"#{version}\"", "plutus/nativeLink"
     bin.install "plutus/target/plutus-out" => "plutus"
   end
 end
