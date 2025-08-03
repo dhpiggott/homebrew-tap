@@ -11,7 +11,7 @@ class Plutus < Formula
     sha256 cellar: :any, ventura:       "bf3b2acccbf4f3fe5cd2fbd641db3cc4ba9edca3fb6d42372b9a997804cbefe9"
   end
 
-  depends_on "llvm" => :build
+  depends_on "llvm@17" => :build
   depends_on "sbt" => :build
   depends_on :macos
   depends_on "s2n"
