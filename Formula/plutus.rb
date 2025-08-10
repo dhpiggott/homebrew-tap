@@ -1,8 +1,8 @@
 class Plutus < Formula
   desc "Monzo OFX exporter"
   homepage "https://github.com/dhpiggott/plutus"
-  url "https://github.com/dhpiggott/plutus/archive/refs/tags/v3.tar.gz"
-  sha256 "5fbfc27722ac7e4335700374b19457a86ae34ec9ae676ddad7d21b14692ec691"
+  url "https://github.com/dhpiggott/plutus/archive/refs/tags/v4.tar.gz"
+  sha256 "8f3b06599ddc0f4c9a383b22c422e10563be79441dc9063fc77b0d4df976204a"
   license ""
 
   bottle do
