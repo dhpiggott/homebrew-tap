@@ -6,9 +6,9 @@ class Plutus < Formula
   license ""
 
   bottle do
-    root_url "https://github.com/dhpiggott/homebrew-tap/releases/download/plutus-3"
-    sha256 cellar: :any, arm64_sequoia: "2a6165b3e1b161c7d8b59447ad3abd6f75a3d2983a214b92953fa1edb26e134c"
-    sha256 cellar: :any, ventura:       "5342c05071d6d9232a0910208b68aeb67090a9cf44e78147a7e0da47fe559271"
+    root_url "https://github.com/dhpiggott/homebrew-tap/releases/download/plutus-4"
+    sha256 cellar: :any, arm64_sequoia: "50cd790e0e9e2adc192e16a4a2e46890415e605620ff2b1194d5c2a7e1e6bc66"
+    sha256 cellar: :any, ventura:       "f08c28a84e8fdb548d63b208528e6aa598ab6d4c7cfbe99c073cd305990c59d4"
   end
 
   depends_on "llvm@17" => :build
