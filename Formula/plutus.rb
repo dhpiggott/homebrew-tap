@@ -10,6 +10,7 @@ class Plutus < Formula
     sha256 cellar: :any, arm64_tahoe: "76b75bf5726191b1c6f2a395d95bdfeb2fd952e960abaddf954187bb9810ded8"
   end
 
+  depends_on "cmake" => :build
   depends_on "llvm@17" => :build
   depends_on "sbt" => :build
   depends_on :macos
