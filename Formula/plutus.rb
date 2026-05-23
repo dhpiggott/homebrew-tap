@@ -13,7 +13,6 @@ class Plutus < Formula
   depends_on "cmake" => :build
   depends_on "llvm@17" => :build
   depends_on "ninja" => :build
-  depends_on "pkgconf" => :build
   depends_on "sbt" => :build
   depends_on :macos
   depends_on "openssl@3"
