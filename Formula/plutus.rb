@@ -22,6 +22,6 @@ class Plutus < Formula
   def install
     ENV["SN_RELEASE"] = "size"
     system "sbt", "set ThisBuild/version := \"#{version}\"", "mainNative3/nativeLink"
-    bin.install "main/target/native-3/main-out" => "plutus"
+    bin.install "main/target/native-3/main" => "plutus"
   end
 end
