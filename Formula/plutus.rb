@@ -21,6 +21,6 @@ class Plutus < Formula
 
   def install
     system "sbt", "set ThisBuild/version := \"#{version}\"", "mainNative3/nativeLinkReleaseFull"
-    bin.install "main/target/native-3/main" => "plutus"
+    bin.install "main/target/native-3/native/plutus.Plutus" => "plutus"
   end
 end
