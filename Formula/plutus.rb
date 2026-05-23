@@ -17,6 +17,7 @@ class Plutus < Formula
   depends_on "sbt" => :build
   depends_on :macos
   depends_on "openssl@3"
+  depends_on "s2n"
 
   def install
     ENV["SN_RELEASE"] = "size"
