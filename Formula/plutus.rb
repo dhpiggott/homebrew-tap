@@ -20,7 +20,7 @@ class Plutus < Formula
   depends_on "s2n"
 
   def install
-    system "sbt", "-J-Xmx2G", "set ThisBuild/version := \"#{version}\"", "mainNative3/nativeLinkReleaseFull"
+    system "sbt", "-J-Xmx4G", "set ThisBuild/version := \"#{version}\"", "mainNative3/nativeLinkReleaseFull"
     bin.install "main/target/native-3/native/plutus.Plutus" => "plutus"
   end
 end
