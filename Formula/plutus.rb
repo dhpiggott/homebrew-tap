@@ -6,8 +6,8 @@ class Plutus < Formula
   license ""
 
   bottle do
-    root_url "https://github.com/dhpiggott/homebrew-tap/releases/download/plutus-7"
-    sha256 cellar: :any, arm64_tahoe: "5a7e905610fab222e0fc65930c0b3c72ec5429c416c712b8e3b29ccd6abf407c"
+    root_url "https://github.com/dhpiggott/homebrew-tap/releases/download/plutus-8"
+    sha256 cellar: :any, arm64_tahoe: "205d34ac93d66ff24988d1711831332b1ca388c95d3ef176e844f6b0b2df0d74"
   end
 
   depends_on "cmake" => :build
