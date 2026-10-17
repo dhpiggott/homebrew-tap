@@ -1,8 +1,8 @@
 class Plutus < Formula
   desc "Personal-finance CLI for GnuCash housekeeping and Monzo OFX export"
   homepage "https://github.com/dhpiggott/plutus"
-  url "https://github.com/dhpiggott/plutus/archive/refs/tags/v8.tar.gz"
-  sha256 "eed75d34f72d6f70d285a7e545b5bb931df74f8ce75fadb3a42a5da8f138d079"
+  url "https://github.com/dhpiggott/plutus/archive/refs/tags/v9.tar.gz"
+  sha256 "a6d5be4c835a3407cd9d007ea562c217f171052d53897b16d22ad4ec237ecf9f"
   license ""
 
   bottle do
