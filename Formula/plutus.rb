@@ -23,4 +23,8 @@ class Plutus < Formula
     system "sbt", "-J-Xmx4G", "set ThisBuild/version := \"#{version}\"", "mainNative3/nativeLinkReleaseFull"
     bin.install "main/target/native-3/native/plutus.Plutus" => "plutus"
   end
+
+  test do
+    assert_match "version: #{version}", shell_output("#{bin}/plutus --version")
+  end
 end
