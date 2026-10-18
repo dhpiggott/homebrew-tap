@@ -25,6 +25,6 @@ class Plutus < Formula
   end
 
   test do
-    assert_match "version: #{version}", shell_output("#{bin}/plutus --version")
+    assert_match(/^version: #{Regexp.escape(version.to_s)}$/, shell_output("#{bin}/plutus --version"))
   end
 end
