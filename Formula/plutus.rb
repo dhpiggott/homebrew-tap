@@ -1,5 +1,5 @@
 class Plutus < Formula
-  desc "Personal-finance CLI for GnuCash housekeeping and Monzo OFX export"
+  desc "Copy Monzo transactions to GnuCash or OFX and archive GnuCash accounts"
   homepage "https://github.com/dhpiggott/plutus"
   url "https://github.com/dhpiggott/plutus/archive/refs/tags/v9.tar.gz"
   sha256 "a6d5be4c835a3407cd9d007ea562c217f171052d53897b16d22ad4ec237ecf9f"
