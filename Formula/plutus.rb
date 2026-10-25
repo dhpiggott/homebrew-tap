@@ -1,13 +1,12 @@
 class Plutus < Formula
   desc "Copy Monzo transactions to GnuCash or OFX and archive GnuCash accounts"
   homepage "https://github.com/dhpiggott/plutus"
-  url "https://github.com/dhpiggott/plutus/archive/refs/tags/v9.tar.gz"
-  sha256 "a6d5be4c835a3407cd9d007ea562c217f171052d53897b16d22ad4ec237ecf9f"
+  url "https://github.com/dhpiggott/plutus/archive/refs/tags/v10.tar.gz"
+  sha256 "5b255fdb91c54773322030be9bdfd66d81e80b9b1ed202a43895869a38cc5e74"
   license ""
 
   bottle do
     root_url "https://github.com/dhpiggott/homebrew-tap/releases/download/plutus-9"
-    rebuild 2
     sha256 cellar: :any, arm64_tahoe: "65bda47edc4bda5f16bd550ec9ad9d0b8939e16892f085e641bf9752ebbed084"
   end
 
